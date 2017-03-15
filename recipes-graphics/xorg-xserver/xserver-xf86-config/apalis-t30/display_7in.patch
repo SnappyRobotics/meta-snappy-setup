@@ -1,0 +1,13 @@
+Index: apalis-t30/xorg.conf
+===================================================================
+--- apalis-t30.orig/xorg.conf
++++ apalis-t30/xorg.conf
+@@ -88,7 +88,7 @@ Section "Monitor"
+ #    Option     "Position" "0 0"
+ 
+ # Explicitly choose a Resolution (check xrandr for available modes)
+-#    Option     "PreferredMode" "1280x720"
++    Option     "PreferredMode" "800x480"
+ 
+ EndSection
+ 
