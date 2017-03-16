@@ -1,0 +1,10 @@
+[Unit]
+Description=Node-RED is a visual tool for wiring the Internet of Things
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/node-red
+ 
+[Install]
+WantedBy=multi-user.target
