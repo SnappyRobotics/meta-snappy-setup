@@ -12,6 +12,9 @@ SRC_URI = " \
 #node-red.service \
 #"
 
+PROVIDES = "node-red"
+RPROVIDES_${PN} = "node-red"
+
 PACKAGES += "${PN}-systemd"
 PRINC := "${@int(PRINC) + 2}"
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:" 
