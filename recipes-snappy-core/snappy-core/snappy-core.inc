@@ -1,5 +1,5 @@
-DESCRIPTION = "Node-RED"
-HOMEPAGE = "http://nodered.org"
+DESCRIPTION = "snappy-core"
+HOMEPAGE = "http://snappyrobotics.github.io"
 LICENSE = "Apache-2.0"
 
 DEPENDS = "nodejs-native"

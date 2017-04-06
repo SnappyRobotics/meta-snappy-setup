@@ -1,4 +1,4 @@
-include node-red.inc
+include snappy-core.inc
 
 LIC_FILES_CHKSUM = "file://LICENSE;md5=d6f37569f5013072e9490d2194d10ae6"
 
