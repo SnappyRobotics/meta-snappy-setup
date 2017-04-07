@@ -20,8 +20,5 @@ if [ $FIRST_TIME -eq 1 ]; then
 	cp ../layers/meta-snappy/meta-snappy-setup/buildconf/*.conf conf/
 
 	echo ""
-	$ECHO -e "\033[1mA sample conf/local.conf file has been created"
-	$ECHO -e "Check and edit the file to adapt to your local needs\033[0m"
-	echo "The following likely need your attention:"
-	echo "BB_NUMBER_THREADS, PARALLEL_MAKE, DL_DIR"
+	$ECHO -e "\033[1mDeveloped by Prajankya\033[0m"
 fi
