@@ -47,7 +47,7 @@ then
 	rm ${bindir}/${PN}
 fi
 
-ln -s ${NODE_MODULES_DIR}${PN}/red.js ${bindir}/${PN}
+ln -s ${NODE_MODULES_DIR}${PN}/index.js ${bindir}/${PN}
 chmod 755 ${bindir}/${PN}
 
 }
