@@ -8,8 +8,8 @@ RDEPENDS_${PN} = "bash python nodejs"
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 SRC_URI = "\
-	https://github.com/${PN}/${PN}/releases/download/${PV}/${PN}-${PV}.zip \
-	file://node-red.service \
+	https://github.com/SnappyRobotics/snappy-core/archive/master.zip \
+	file://snappy-core.service \
 "
 
 S = "${WORKDIR}/${PN}-${PV}"
