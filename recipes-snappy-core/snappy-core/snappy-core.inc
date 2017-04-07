@@ -7,7 +7,7 @@ RDEPENDS_${PN} = "bash python nodejs"
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 SRC_URI = "\
-	https://github.com/SnappyRobotics/snappy-core/archive/${PV}.zip \
+	https://github.com/SnappyRobotics/${PN}/archive/${PV}.zip \
 	file://snappy-core.service \
 "
 
