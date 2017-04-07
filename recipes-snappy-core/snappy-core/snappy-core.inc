@@ -1,6 +1,5 @@
 DESCRIPTION = "snappy-core"
 HOMEPAGE = "http://snappyrobotics.github.io"
-LICENSE = "Apache-2.0"
 
 DEPENDS = "nodejs-native"
 RDEPENDS_${PN} = "bash python nodejs"
