@@ -2,8 +2,7 @@
 Description=Snappy Core
 
 [Service]
-Environment=NODE_ENV=production
-ExecStart=/bin/su root -c 'node /usr/lib/node_modules/snappy-core/index.js'
+ExecStart=/bin/su root -c 'DEBUG=snappy:* node /usr/lib/node_modules/snappy-core/index.js'
 Restart=always
 RestartSec=30
 
