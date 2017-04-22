@@ -1,0 +1,8 @@
+include snappy-core.inc
+
+LICENSE = "LGPL-3.0"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=e6a600fd5e1d9cbde2d983680233ad02"
+
+SRC_URI[md5sum] = "c4866004b82fdac85a091b11410b8987"
+SRC_URI[sha256sum] = "7251ce9dc5d0612d8655f46ae8e532bd060344a6e31dddb23e0863305045b6d3"
+
