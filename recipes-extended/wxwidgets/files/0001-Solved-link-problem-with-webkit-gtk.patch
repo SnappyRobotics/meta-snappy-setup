@@ -1,0 +1,25 @@
+From 0acad5c83fc4aff286f893527d6fa0c5b584b4ad Mon Sep 17 00:00:00 2001
+From: prajankya <prajankya@gmail.com>
+Date: Sat, 29 Apr 2017 04:33:05 +0530
+Subject: [PATCH] Solved link problem with webkit-gtk
+
+---
+ recipes-extended/wxwidgets/wxwidgets_2.9.5.bb | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/recipes-extended/wxwidgets/wxwidgets_2.9.5.bb b/recipes-extended/wxwidgets/wxwidgets_2.9.5.bb
+index 1996556..3d29b9c 100644
+--- a/recipes-extended/wxwidgets/wxwidgets_2.9.5.bb
++++ b/recipes-extended/wxwidgets/wxwidgets_2.9.5.bb
+@@ -4,7 +4,7 @@ HOMEPAGE = "http://www.wxwidgets.org"
+ LICENSE = "WXwindows"
+ LIC_FILES_CHKSUM = "file://docs/licence.txt;md5=18346072db6eb834b6edbd2cdc4f109b"
+ 
+-DEPENDS = "webkit-gtk gstreamer gtk+ jpeg tiff libpng zlib expat libxinerama libglu"
++DEPENDS = "webkitgtk gstreamer gtk+ jpeg tiff libpng zlib expat libxinerama libglu"
+ 
+ SRC_URI = "${SOURCEFORGE_MIRROR}/wxwindows/wxWidgets-${PV}.tar.bz2"
+ SRC_URI[md5sum] = "e98c5f92805493f150656403ffef3bb0"
+-- 
+2.7.4
+

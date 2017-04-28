@@ -1,5 +1,5 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 SRC_URI += " \
-    file://webkit_gtk_fix.patch \
+    file://0001-Solved-link-problem-with-webkit-gtk.patch \
 "
