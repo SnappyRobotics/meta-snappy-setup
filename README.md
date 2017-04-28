@@ -1,7 +1,7 @@
 # meta-snappy-setup
 OpenEmbedded Package for snappy setup
 
-
+```
 export ROS_ROOT=/opt/ros/indigo 
 export ROS_DISTRO=indigo 
 export ROS_PACKAGE_PATH=/opt/ros/indigo/share 
@@ -11,3 +11,4 @@ export PYTHONPATH=/opt/ros/indigo/lib/python2.7/site-packages
 export ROS_MASTER_URI=http://apalis-t30:11311
 export CMAKE_PREFIX_PATH=/opt/ros/indigo
 touch /opt/ros/indigo/.catkin 
+```
