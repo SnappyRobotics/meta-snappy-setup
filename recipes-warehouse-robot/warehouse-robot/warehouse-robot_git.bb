@@ -5,7 +5,7 @@ LICENSE = "LGPL-3.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=84dcc94da3adb52b53ae4fa38fe49e5d"
 
 DEPENDS = "roscpp catkin rospy std-msgs geometry-msgs nav-msgs tf"
-RDEPENDS_${PN} = "roscpp rospy std-msgs geometry-msgs nav-msgs tf gennodejs xacro robot-state-publisher joint-state-publisher rviz"
+RDEPENDS_${PN} = "roscpp rospy std-msgs geometry-msgs nav-msgs tf gennodejs xacro robot-state-publisher joint-state-publisher"
 
 SRC_URI = "git://github.com/SnappyRobotics/warehouse_robot.git"
 
