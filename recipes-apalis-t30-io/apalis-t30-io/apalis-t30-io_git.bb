@@ -34,9 +34,6 @@ do_compile() {
 do_install() {
 	install -d ${D}${NODE_MODULES_DIR}${PN}
     	cp -r ${S}/* ${D}${NODE_MODULES_DIR}${PN}
-	
-	install -d ${D}${systemd_unitdir}/system/
-	install -m 0644 ${WORKDIR}/${PN}.service ${D}${systemd_unitdir}/system/
 }
 
 pkg_prerm_${PN}() {
