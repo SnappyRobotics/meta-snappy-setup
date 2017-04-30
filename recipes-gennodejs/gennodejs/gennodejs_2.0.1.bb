@@ -4,8 +4,8 @@ SECTION = "devel"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=ec03229cf6a2bffe6d8c8ba50f346072"
 
-DEPENDS = "roscpp catkin rospy genmsg warehouse-robot"
-RDEPENDS_${PN} = "roscpp rospy genmsg warehouse-robot"
+DEPENDS = "roscpp catkin rospy genmsg"
+RDEPENDS_${PN} = "roscpp rospy genmsg"
 
 
 SRC_URI = "https://github.com/RethinkRobotics-opensource/${PN}/archive/${PV}.zip"
